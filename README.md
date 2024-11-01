@@ -1,18 +1,16 @@
-Here's a comprehensive README file template tailored for your Pathfinder project, designed to meet production-level standards. This template covers essential sections such as project overview, installation, usage, and contribution guidelines. Feel free to modify it according to your specific project details and requirements.
-
----
 
 # Pathfinder
 
 ## Overview
 
-Pathfinder is an interactive web application that allows users to visualize and compute the shortest paths between cities using different modes of transportation (plane and bus). Utilizing the `vis-network` library for graph visualization and Dijkstra's algorithm for pathfinding, this application provides a user-friendly interface to manage cities and their connections dynamically.
+Pathfinder is a comprehensive web application designed to assist users in finding optimal paths or routes between cities using different modes of transportation (plane and bus). The application utilizes the `vis-network` library for graph visualization and implements various pathfinding algorithms, including Dijkstra's algorithm and the A* search algorithm, to calculate the most efficient routes. With a user-friendly interface, Pathfinder allows users to manage cities and their connections dynamically.
 
-## Features
+## Key Features
 
 - **Interactive Graph Visualization**: Users can view cities as nodes and connections as edges with customizable attributes.
 - **Dynamic City and Connection Management**: Add new cities and connections between them, specifying the distance and transport type.
 - **Shortest Path Calculation**: Calculate the shortest path between two selected cities, displaying the route and total distance.
+- **Visual Representation**: The project includes graphical representation capabilities to visually depict the graph, nodes, and paths, enhancing user understanding of the pathfinding process.
 - **Confetti Animation**: Celebrate successful pathfinding with an engaging confetti animation.
 
 ## Technologies Used
@@ -83,10 +81,14 @@ We welcome contributions from the community! To contribute to Pathfinder, please
    ```
 5. **Open a pull request** with a description of your changes.
 
+## Live Demo
+
+Check out the live version of the application here: [Pathfinder Live](https://find-path.vercel.app/)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
-- Inspired by Dijkstra's algorithm for pathfinding.
+- Inspired by Dijkstra's algorithm and A* search algorithm for pathfinding.
